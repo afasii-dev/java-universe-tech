@@ -1,12 +1,12 @@
-##BRANCH TEMPLATE: 
+BRANCH TEMPLATE: 
     username-hw-task-description
     
-*EXAMPLE: afasii-dev-hw-variables*
+EXAMPLE: afasii-dev-hw-variables
 
 
 
-##PULL REQUEST TEMPLATE:
+PULL REQUEST TEMPLATE:
     [username] - HW: Description
 
-*EXAMPLE: [afasii-dev] - HW: Variable class added*
+EXAMPLE: [afasii-dev] - HW: Variable class added
 

@@ -1,9 +1,7 @@
-public class Main {
-    public static void main(String[] args) {
-        System.out.println("Music World!");
-        String me = "Zarif";
-        String name = "The World is mine";
-        String author = "David";
-        System.out.println("Download" + name + " " + author);
-    }
-}
+public static void main(String[] args) {
+        System.out.println("Hello BBL!");
+        String name = "Zarif";
+        int age = 31;
+        System.out.println(name);
+        }
+        }

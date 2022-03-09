@@ -17,7 +17,7 @@
     
     
 ## 3) Write the code     
-![This is an image](https://cs13.pikabu.ru/post_img/2020/02/15/8/1581769199194446969.jpg)
+![This is an image](https://i.ytimg.com/vi/6f7pgA0riU8/maxresdefault.jpg)
 
     
 

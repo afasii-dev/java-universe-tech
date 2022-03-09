@@ -3,6 +3,8 @@ public class Main {
         System.out.println("Hello BBL!");
         String name = "Zarif";
         String city = "Dushanbe"
-        System.out.println(name);
+        int number = 100;
+        int sum = number + 333;
+        System.out.println(name + sum);
     }
 }

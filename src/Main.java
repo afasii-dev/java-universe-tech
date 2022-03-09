@@ -1,12 +1,9 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello BBL!");
+        System.out.println("Music World!");
         String me = "Zarif";
-        String info = "The World is flat";
-        String city = "Dushanbe";
-        int UsdCurrence = sum;
-        int number = 12;
-        int sum = number + 1;
-        System.out.println(info);
+        String name = "The World is mine";
+        String author = "David";
+        System.out.println("Download" + name + " " + author);
     }
 }

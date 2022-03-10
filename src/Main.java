@@ -1,13 +1,10 @@
 import java.util.Scanner;
 
-public class Main
-{
-    public static void main(String[] args)
-    {
+public class Main {
+    public static void main(String[] args) {
         String market = "1) AirPods\n2) Mac\n3) iPhone\n4) Apple Watch\n5) Accessories\n6)TV&Home\n7) iPad \n";
         System.out.println(market);
-        while (true)
-        {
+        while (true) {
             int apple = appleStore();
         }
 

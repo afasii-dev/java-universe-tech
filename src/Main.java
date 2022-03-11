@@ -36,6 +36,7 @@ public class Main
                     {
                         System.out.println("Price 399$");
                     }
+                    else if (airPods >= 4);
                     else
                     {
                         System.out.println("Price 899$");
@@ -64,6 +65,7 @@ public class Main
                         {
                             System.out.println("Price 3499$");
                         }
+                        else if (mac >= 5);
                         else
                         {
                             System.out.println("Price 7899$");
@@ -96,6 +98,7 @@ public class Main
                          {
                              System.out.println("Price 1999$");
                          }
+                        else if (iPhone >= 6);
                         else
                         {
                             System.out.println("Price 2699$");
@@ -122,6 +125,7 @@ public class Main
                 {
                     System.out.println("Price 599$");
                 }
+                else if (appleWatch >= 4);
                 else
                 {
                     System.out.println("Price 499$");
@@ -142,6 +146,7 @@ public class Main
                 {
                     System.out.println("Price 99$");
                 }
+                else if (appleAccessories >= 4);
                 else
                 {
                     System.out.println("Price 199$");
@@ -178,6 +183,7 @@ public class Main
                 {
                     System.out.println("Price 899$");
                 }
+                else if (ipad >= 5);
                 else if (ipad <= 3)
                 {
                     System.out.println("Price 1499$");

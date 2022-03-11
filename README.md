@@ -1,7 +1,7 @@
 ## WORKFLOW:
 
 ## 1) Make sure you're up to date with your personal master branch   
-        -   git checkout your-master-branch
+        -   git checkout your-main-branch
         -   git pull
 
 
@@ -24,7 +24,7 @@
 ## 4) Commit and push your changes
         -   git add .
         -   git commit -m 'commit message'
-        -   git push --set-upstream origin branch-name  (first-time push)
+        -   git push -u origin branch-name  (first-time push)
         -   git push (the rest pushes if needed)
 
 

@@ -4,5 +4,6 @@ public class Main {
         String name = "Rustam";
         System.out.println(name);
         qwerty
+        qwerty
     }
 }

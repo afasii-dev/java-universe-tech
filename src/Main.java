@@ -3,5 +3,6 @@ public class Main {
         System.out.println("Hello BBL!");
         String name = "Rustam";
         System.out.println(name);
+        qwerty
     }
 }

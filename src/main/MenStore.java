@@ -2,9 +2,9 @@ package main;
 
 import java.util.Scanner;
 
-public class menStore {
+public class MenStore {
     public static void main(String[] args) {
-        System.out.print("\n*MEN'S STORE*");
+        System.out.println("*MEN'S STORE*");
         while (true) {
             showMenu();
             menStore();
@@ -18,7 +18,7 @@ public class menStore {
                  1) Jeans
                  2) Shoes
                  3) Shirts
-                 4) Coats            
+                 4) Coats           
                 """;
         System.out.println(menu);
     }
@@ -48,10 +48,10 @@ public class menStore {
         System.out.println("JEANS:");
         System.out.println("1)Relaxed Jeans\n2)Loose Jeans\n3)Slim Jeans");
         int jeans = getNumber();
-        System.out.println("Your Choice");
         switch (jeans) {
             case 1:
-                System.out.println("Relaxed Jeans:\nPrice 100$");
+                System.out.println("Relaxed Jeans:\nChoose Your Color!");
+                chooseYourJeansColor();
                 break;
             case 2:
                 System.out.println("Loose Jeans:\nPrice 90$");
@@ -61,6 +61,16 @@ public class menStore {
                 break;
             default:
                 System.out.println("Wrong input");
+        }
+    }
+
+    private static void chooseYourJeansColor() {
+        System.out.println("1)Blue\n2)White\n3)Black");
+        int color = getNumber();
+        System.out.println("Your Choice");
+        switch (color) {
+            case 1:
+                System.out.println("Price 100$");
         }
     }
 

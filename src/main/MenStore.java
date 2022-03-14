@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class MenStore {
     public static void main(String[] args) {
-        System.out.println("*MEN'S STORE*");
+        System.out.print("\n*MEN'S STORE*");
         while (true) {
             showMenu();
             menStore();

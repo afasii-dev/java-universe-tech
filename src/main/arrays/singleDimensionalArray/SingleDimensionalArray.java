@@ -1,6 +1,6 @@
-package main.arrays;
+package main.arrays.singleDimensionalArray;
 
-public class Arrays {
+public class SingleDimensionalArray {
 
     public static void main(String[] args) {
 //        1) Массив (Array) - это переменная, в которую можно положить сразу несколько значений.

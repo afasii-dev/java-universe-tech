@@ -9,7 +9,6 @@ public class ArrayAndLoop {
             getToUpperCase();
             getToLowerCase();
             getEquals();
-
         }
 
     private static void iphoneLength() {
@@ -22,81 +21,61 @@ public class ArrayAndLoop {
 
             }
             System.out.println("The Length would be: " + phone);
-
         }
-
         private static void getConcat() {
             System.out.println("\nCONCAT:");
-            String[] conTask = new String[3];
-
-            conTask[0] = " I didn't know that ";
-            conTask[1] = "learning java";
-            conTask[2] = " can be this much fun.";
-            String result = (conTask[0].concat(conTask[1].concat(conTask[2])));
+            String[] stringArray = {" I didn't know that ", "learning java", " can be this much fun."};
 
             for (int i = 0; i < 1; i++) {
-                System.out.println(i + result);
+               String result = stringArray[0].concat(stringArray[1].concat(stringArray[2]));
+                System.out.println(result);
             }
-
         }
-
         private static void getTrim() {
             System.out.println("\nTRIM:");
-            String[] trimTask = {"  Create  ", "New     ", "  Project    "};
+            String[] trimString = {"  Create  ", "New     ", "  Project    "};
 
             for (int i = 0; i < 3; i++) {
-                System.out.println("Trimed: " + trimTask[i].trim());
+                System.out.println("Trimed: " + trimString[i].trim());
             }
-
         }
-
         private static void getEndWith() {
             System.out.println("\nENDWITH:");
-            String[] endWTask = {"Having ", "Fun With ", "Java"};
+            String[] findLetter = {"Having ", "Fun With ", "Java"};
 
-            if (endWTask[2].endsWith("a")) {
+            if (findLetter[2].endsWith("a")) {
                 System.out.println("Good: ");
             } else {
                 System.out.println("Wrong");
             }
-
         }
-
         private static void getToUpperCase() {
             System.out.println("\nTO UPPER CASE:");
-            String[] seasons = {" Winter", " Spring ", "Summer", " Autumn"};
+            String[] seasons = {" Winter", "Spring ", "Summer", " Autumn"};
+            String getUpper = seasons[1].toUpperCase() + seasons[3].toUpperCase();
 
-            for (int i = 0; i < 1; i++) {
-                String getToUpCa = seasons[0] + seasons[1].toUpperCase() + seasons[2] + seasons[3].toUpperCase();
-                System.out.println(i + getToUpCa);
-
+            for (int i = 1; i < 1; i++) {
+                getUpper = getUpper + seasons[i].toUpperCase();
             }
-
+            System.out.println(getUpper);
         }
-
         private static void getToLowerCase() {
             System.out.println("\nTO LOWER CASE:");
             String[] numbers = {" FIRST", " SECOND ", "THIRD ", "FOURTH", " FIFTH", " SIXTH"};
+            String getLower = numbers[2].toLowerCase() + numbers[5].toLowerCase();
 
-            for (int i = 0; i < 1; i++) {
-                String getToLoCase = numbers[0] + numbers[1] + numbers[2].toLowerCase() + numbers[3] + numbers[4] + numbers[5].toLowerCase();
-                System.out.println(i + getToLoCase);
-
+            for (int i = 2; i < 1; i++) {
+                getLower = getLower + numbers[i].toLowerCase();
             }
-
+            System.out.println(getLower);
         }
-
     private static void getEquals() {
         System.out.println("\nEQUALS:");
-        String getEquals = "Intellij IDEA";
-        String getEquals2 = "Intellij IDEA";
+        String[] chocolates = {"Mars", "Snickers", "Twix", "Mars", "Bounty"};
 
         for (int i = 0; i < 1; i++) {
-            boolean equalsResl = getEquals.equals(getEquals2);
-            System.out.println(i + " Result: " + equalsResl);
-
+            boolean getEquals = chocolates[0].equals(chocolates[3]);
+            System.out.println(i + " Result: " + getEquals);
         }
-
     }
-
     }

@@ -2,10 +2,11 @@ import java.util.Scanner;
 
 public class SweetShop {
     public static void main(String[] args) {
+        System.out.println("Welcome to SweetShop!\n");
         while (true) {
-            System.out.println("Welcome to SweetShop!");
             showMenu();
             itemPrice();
+            System.out.println("*************");
         }
     }
 

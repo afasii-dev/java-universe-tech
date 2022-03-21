@@ -15,7 +15,6 @@ public class Human {
     }
 
     public Human() {
-
     }
 
     public Human(String name, String sex, int age, String profession) {

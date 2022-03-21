@@ -25,7 +25,7 @@ public class ArraysHW1 {
 
     private static void stringArrayToLowerCase() {
         String[] line = getLine();
-        for (int i = 0; i < lineLenght(); i+=3){
+        for (int i = 2; i < lineLenght(); i+=3){
             line[i] = line[i].toLowerCase();}
 
         for (int i = 0; i < lineLenght(); i++){
@@ -35,7 +35,7 @@ public class ArraysHW1 {
 
     private static void stringArrayToUpperCase() {
         String[] line = getLine();
-        for (int i = 0; i < lineLenght(); i+=2){
+        for (int i = 1; i < lineLenght(); i+=2){
             line[i] = line[i].toUpperCase();}
 
         for (int i = 0; i < lineLenght(); i++){

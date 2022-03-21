@@ -11,7 +11,7 @@ public class ToUpperCase {
     private static void stringArrayToLowerCaseV2() {
         String[] line = getLine();
         for (int i = 0; i < lineLenght(); i++){
-            for (int j = 0; j < line[i].length(); j+=3) {
+            for (int j = 2; j < line[i].length(); j+=3) {
                 line[i] = line[i].replace(line[i].substring(j, j+1), line[i].substring(j, j+1).toLowerCase());
             }
         }
@@ -28,7 +28,7 @@ public class ToUpperCase {
             }
             System.out.println();
             for (int i = 0; i < lineLenght(); i++){
-                for (int j = 0; j < line[i].length(); j+=2) {
+                for (int j = 1; j < line[i].length(); j+=2) {
                     line[i] = line[i].replace(line[i].substring(j, j+1), line[i].substring(j, j+1).toUpperCase());
                 }
             }

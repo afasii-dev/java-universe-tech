@@ -1,4 +1,4 @@
-package main.array;
+package main.arrays;
 
 public class ArrayAndLoop {
     public static void main(String[] args) {

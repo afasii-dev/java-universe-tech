@@ -1,4 +1,4 @@
-package arrays_and_methods;
+package hw1;
 
 
 import java.util.Locale;

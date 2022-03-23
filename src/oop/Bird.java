@@ -45,6 +45,7 @@ public class Bird {
     public Bird() {
 
     }
+
     public Bird(String name, String lifespan, String divingSpeed, float weight) {
         this.name = name;
         this.lifespan = lifespan;

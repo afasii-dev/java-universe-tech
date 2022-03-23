@@ -45,6 +45,7 @@ public class Dog {
     public Dog() {
 
     }
+
     public Dog(String breed, String lifespan, String color, int weight) {
         this.breed = breed;
         this.lifespan = lifespan;

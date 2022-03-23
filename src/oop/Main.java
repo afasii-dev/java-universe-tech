@@ -26,9 +26,7 @@ public class Main {
         eagle.setDivingSpeed("120 – 160 km/h");
         eagle.setWeight(5.5f);
 
-
         System.out.println(eagle.toString());
         eagle.fly();
-
     }
 }

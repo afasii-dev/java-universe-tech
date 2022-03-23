@@ -1,13 +1,13 @@
-package oop;
+package main.oop;
 
-public class Dog {
+public class Cat {
     private String breed;
     private String lifespan;
     private String color;
     private int weight;
 
-    public void run() {
-        System.out.println("It's Running...");
+    public void voice() {
+        System.out.println("it's screaming...");
     }
 
     public String getBreed() {
@@ -42,11 +42,11 @@ public class Dog {
         this.weight = weight;
     }
 
-    public Dog() {
+    public Cat() {
 
     }
 
-    public Dog(String breed, String lifespan, String color, int weight) {
+    public Cat(String breed, String lifespan, String color, int weight) {
         this.breed = breed;
         this.lifespan = lifespan;
         this.color = color;
@@ -55,7 +55,7 @@ public class Dog {
 
     @Override
     public String toString() {
-        return "Dog{ " +
+        return "Cat{ " +
                 "breed =' " + breed + '\'' +
                 ", lifespan =' " + lifespan + '\'' +
                 ", color =' " + color + '\'' +

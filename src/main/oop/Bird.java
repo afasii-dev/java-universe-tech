@@ -1,4 +1,4 @@
-package oop;
+package main.oop;
 
 public class Bird {
     private String name;

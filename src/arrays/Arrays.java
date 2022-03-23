@@ -64,5 +64,6 @@ public class Arrays {
 
         for (int i = 1; i < resultLover.length; i = i + 2)
             System.out.println("metodToLowerCase " + resultLover[i].toLowerCase());
+    }
 
 }

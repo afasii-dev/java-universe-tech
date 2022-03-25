@@ -7,10 +7,10 @@ public class Arrays {
         
        countryLength();
        getConcat();
-       metodTrim();
-       metodEndWith();
-       metodToUpperCase();
-       metodToLowerCase();
+       methodTrim();
+       methodEndWith();
+       methodToUpperCase();
+       methodToLowerCase();
     }
 
     public static void countryLength() {
@@ -33,7 +33,7 @@ public class Arrays {
         System.out.println("Concating " + resultConcat);
     }
 
-    public static void metodTrim() {
+    public static void methodTrim() {
         String[] trimArray = {"Читайте! ", " читайте! ", "еще раз читайте! "};
 
         for (int i = 0; i < trimArray.length; i++) {
@@ -41,29 +41,29 @@ public class Arrays {
         }
     }
 
-    public static void metodEndWith() {
-        String[] EndWithArray = {"nokia", " sony ", "apple"};
+    public static void methodEndWith() {
+        String[] andWithArray = {"nokia", " sony ", "apple"};
 
-        for (int i = 0; i < EndWithArray.length; i++) {
-            if (EndWithArray[i].endsWith("a")) {
-                System.out.println("EndWith " +EndWithArray[i].trim());
+        for (int i = 0; i < andWithArray.length; i++) {
+            if (andWithArray[i].endsWith("a")) {
+                System.out.println("EndWith " +andWithArray[i].trim());
             }
         }
     }
 
 
-    public static void metodToUpperCase() {
+    public static void methodToUpperCase() {
         String[] result = {"Nokia", "Sony ", "Apple", "Lenovo", "fly"};
 
         for (int i = 1; i < result.length; i = i + 2)
-            System.out.println("metodToUpperCase " + result[i].toUpperCase());
+            System.out.println("methodToUpperCase " + result[i].toUpperCase());
     }
 
-    public static void metodToLowerCase() {
+    public static void methodToLowerCase() {
         String[] resultLover = {"NOKIA", "SONY ", "APPLE", "LENOVO", "fly"};
 
         for (int i = 1; i < resultLover.length; i = i + 2)
-            System.out.println("metodToLowerCase " + resultLover[i].toLowerCase());
+            System.out.println("methodToLowerCase " + resultLover[i].toLowerCase());
     }
 
 }

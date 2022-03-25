@@ -1,9 +1,9 @@
-package arrays_and_methods;
+package arraysAndMethodsHomeWork;
 
 import java.util.Locale;
 import java.util.Scanner;
 
-public class Array_string {
+public class ArrayStringHomeWork {
     public static void main(String[] args) {
         while(true){
         system();

@@ -1,4 +1,4 @@
-package home_work;
+package classeshomeWork;
 
 import java.util.Scanner;
 
@@ -16,9 +16,9 @@ public class Main {
     private static void bird() {
         Bird bird = new Bird("Jellow","Mom's",1,"Yellow");
         System.out.println(bird);
-        int sx = scanner();
+        String  sx = scanner();
         switch (sx){
-            case 1:
+            case " ":
                 bird.picture();
             default:
                 System.out.println("ERROR");
@@ -32,9 +32,9 @@ public class Main {
         cat.setName("lis");
         cat.setWhose("Mine");
         System.out.println(cat);
-        int sx = scanner();
+        String sx = scanner();
         switch (sx){
-            case 1:
+            case " ":
                 cat.picture();
             default:
                 System.out.println("ERROR");
@@ -48,19 +48,19 @@ public class Main {
         dog.setColor("black");
         dog.setWhose("Sister's");
         System.out.println(dog);
-        int sx = scanner();
+        String sx = scanner();
         switch (sx){
-            case 1:
+            case " ":
                 dog.picture();
             default:
                 System.out.println("ERROR");
         }
     }
 
-    private static int scanner() {
-        System.out.println("to view picture insert '1' :");
+    private static String scanner() {
+        System.out.println("to view picture press 'space' :");
         Scanner in = new Scanner(System.in);
-        int x = in.nextInt();
+        String x = in.nextLine();
         return x;
     }
 }

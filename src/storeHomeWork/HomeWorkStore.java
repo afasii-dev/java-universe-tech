@@ -1,8 +1,8 @@
-package hw1;
+package storeHomeWork;
 
 import java.util.Scanner;
 
-public class Main {
+public class HomeWorkStore {
     public static void main(String[] args) {
 
         while (true) {

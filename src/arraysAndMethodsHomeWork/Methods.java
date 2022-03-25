@@ -1,8 +1,7 @@
-package hw1;
+package arraysAndMethodsHomeWork;
 
 
 import java.util.Locale;
-import java.util.Scanner;
 
 public class Methods {
     public static void main(String[] args) {

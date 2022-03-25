@@ -1,4 +1,4 @@
-package home_work;
+package classeshomeWork;
 
 public class Dog {
     public Dog() {

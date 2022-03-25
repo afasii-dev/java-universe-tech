@@ -1,8 +1,8 @@
-package arrays_and_methods;
+package arraysAndMethodsHomeWork;
 
 import java.util.Scanner;
 
-public class Array_int {
+public class ArrayIntHomeWork {
     public static void main(String[] args) {
         while (true) {
             system();

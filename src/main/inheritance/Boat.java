@@ -1,6 +1,7 @@
 package main.inheritance;
 
 public class Boat extends Vehicle {
+
     @Override
     public void start() {
         System.out.println("Boat is started.");
@@ -8,13 +9,11 @@ public class Boat extends Vehicle {
 
     @Override
     public void stop() {
-
         System.out.println("Boat is stopped.");
     }
 
     @Override
     public void action() {
-
         System.out.println("Boat is on the autopilot.");
     }
 

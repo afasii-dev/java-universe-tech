@@ -9,6 +9,10 @@ public class Vehicle {
     public Vehicle() {
     }
 
+    public Vehicle(String name) {
+        this.name = name;
+    }
+
     public Vehicle(String name, int speed, int weight) {
         this.name = name;
         this.speed = speed;
@@ -40,17 +44,14 @@ public class Vehicle {
     }
 
     public void start() {
-
         System.out.println("Vehicle is started.");
     }
 
     public void stop() {
-
         System.out.println("Vehicle is stopped.");
     }
 
     public void action() {
-
         System.out.println("Vehicle is on the autopilot.");
     }
 
@@ -59,19 +60,19 @@ public class Vehicle {
     }
 
     public void action(String park) {
-        System.out.println(park);
+        System.out.println("Car can park itself");
     }
 
     public void message(String engine) {
-        System.out.println(engine);
+        System.out.println("All the engines are working fine." + engine);
     }
 
     public void start(String move) {
-        System.out.println(move);
+        System.out.println("Train is started to move." + move);
     }
 
     public void stop(String emergency) {
-        System.out.println(emergency);
+        System.out.println("Train Made an emergency stop!!!" + emergency);
     }
 
 

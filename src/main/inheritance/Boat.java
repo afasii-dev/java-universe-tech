@@ -8,11 +8,13 @@ public class Boat extends Vehicle {
 
     @Override
     public void stop() {
+
         System.out.println("Boat is stopped.");
     }
 
     @Override
     public void action() {
+
         System.out.println("Boat is on the autopilot.");
     }
 

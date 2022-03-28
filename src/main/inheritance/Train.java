@@ -8,6 +8,7 @@ public class Train extends Vehicle {
 
     @Override
     public void stop(String emergency) {
+
         System.out.println("Emergency stop!!!");
     }
 

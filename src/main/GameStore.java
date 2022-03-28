@@ -8,9 +8,7 @@ public class GameStore {
         while (true) {
             showMenu();
             GameStore();
-
         }
-
     }
 
     private static void showMenu() {
@@ -42,9 +40,7 @@ public class GameStore {
             case 5:
                 showSimulation();
                 break;
-
         }
-
     }
 
     private static void showRPG() {
@@ -114,8 +110,6 @@ public class GameStore {
         } else if (Action == 3) {
             System.out.println("Price 19.99$");
         }
-
-
     }
 
 
@@ -124,8 +118,5 @@ public class GameStore {
         int number = input.nextInt();
         System.out.println();
         return number;
-
     }
-
-
 }

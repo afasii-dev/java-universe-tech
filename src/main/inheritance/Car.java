@@ -18,7 +18,7 @@ public class Car extends Vehicle {
     }
 
     @Override
-    public void action(String park) {
+    public void action(String action) {
         System.out.println("Car can park itself.");
     }
 

@@ -18,7 +18,7 @@ public class Plane extends Vehicle {
     }
 
     @Override
-    public void message(String engine) {
+    public void message(String message) {
         System.out.println("All the engines are working fine.");
     }
 }

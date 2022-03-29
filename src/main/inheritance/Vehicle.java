@@ -59,22 +59,21 @@ public class Vehicle {
         System.out.println("Vehicle is giving an engine error.");
     }
 
-    public void action(String park) {
+    public void action(String action) {
         System.out.println("Car can park itself");
     }
 
-    public void message(String engine) {
-        System.out.println("All the engines are working fine." + engine);
+    public void message(String message) {
+        System.out.println("All the engines are working fine." + message);
     }
 
-    public void start(String move) {
-        System.out.println("Train is started to move." + move);
+    public void start(String start) {
+        System.out.println("Train is started to move." + start);
     }
 
-    public void stop(String emergency) {
-        System.out.println("Train Made an emergency stop!!!" + emergency);
+    public void stop(String stop) {
+        System.out.println("Train Made an emergency stop!!!" + stop);
     }
-
 
     @Override
     public String toString() {

@@ -6,16 +6,19 @@ public abstract class Vehicle {
     private int year;
     private String fuelType;
 
-    void drive() {
+    public void drive() {
         System.out.println("We are driving!");
     }
-    void left() {
-        System.out.println("Turn to the left!");
+
+    public void leftAndRight() {
+        System.out.println("We are turning!");
     }
-    void right() {
-        System.out.println("Turn to the right!");
+
+    public void stop() {
+        System.out.println("Stop right here!");
     }
-    void back() {
+
+    public void back() {
         System.out.println("Drive back!");
     }
 

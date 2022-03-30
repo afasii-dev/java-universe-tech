@@ -60,20 +60,10 @@ public class Vehicle {
     }
 
     public void action(String action) {
-        System.out.println("Car can park itself");
+        System.out.println(action);
     }
 
-    public void message(String message) {
-        System.out.println("All the engines are working fine." + message);
-    }
-
-    public void start(String start) {
-        System.out.println("Train is started to move." + start);
-    }
-
-    public void stop(String stop) {
-        System.out.println("Train Made an emergency stop!!!" + stop);
-    }
+    public void message(String message) { System.out.println(message); }
 
     @Override
     public String toString() {

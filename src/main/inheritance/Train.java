@@ -3,12 +3,12 @@ package main.inheritance;
 public class Train extends Vehicle {
 
     @Override
-    public void start(String start) {
+    public void start() {
         System.out.println("Train is started to move.");
     }
 
     @Override
-    public void stop(String stop) {
+    public void stop() {
         System.out.println("Train Made an emergency stop!!!");
     }
 

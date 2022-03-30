@@ -1,6 +1,6 @@
 package main.inheritance;
 
-public class main {
+public class Main {
     public static void main(String[] args) {
         Car car = new Car();
         car.setName("Bugatti Divo");
@@ -42,8 +42,8 @@ public class main {
         train.setWeight(10000);
         System.out.println(train);
 
-        train.start("");
-        train.stop("");
+        train.start();
+        train.stop();
         train.action();
         train.message();
     }

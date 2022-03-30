@@ -1,17 +1,9 @@
 package main.oop.abstractClass;
 
-public class Car extends Vehicle{
-        String type;
-        int year;
+    public class Car extends Vehicle {
 
-        public Car(String type, int year) {
-            this.type = type;
-            this.year = year;
-        }
-
-        @Override
-        public void fuelType() {
-            System.out.println("Gas!");
-        }
+    @Override
+    public void purpose() {
+        System.out.println("I am for a Taxi!");
     }
 }

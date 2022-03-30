@@ -3,7 +3,7 @@ package main.oop.abstractClass;
 public class Van extends Vehicle{
 
     @Override
-    void fuelType() {
-        System.out.println("Petrol!");
+    void purpose() {
+        System.out.println("I'm for product transportation!");
     }
 }

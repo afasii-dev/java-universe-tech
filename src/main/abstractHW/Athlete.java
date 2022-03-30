@@ -1,6 +1,6 @@
-package main.abstractt;
+package main.abstractHW;
 
-public abstract class Gym {
+public abstract class Athlete {
 
     void warmUp() {
         System.out.println("Warming up.");

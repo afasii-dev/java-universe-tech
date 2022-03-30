@@ -1,6 +1,6 @@
-package main.abstractt;
+package main.abstractHW;
 
-public class Athlete1 extends Gym{
+public class HeavyWeight extends Athlete {
 
     @Override
     void pushUps() {

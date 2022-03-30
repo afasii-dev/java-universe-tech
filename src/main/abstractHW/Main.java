@@ -1,10 +1,10 @@
-package main.abstractt;
+package main.abstractHW;
 
 public class Main {
     public static void main(String[] args) {
-        Athlete1 John = new Athlete1();
-        Athlete2 Zane = new Athlete2();
-        Athlete3 Frank = new Athlete3();
+        HeavyWeight John = new HeavyWeight();
+        MiddleWeight Zane = new MiddleWeight();
+        LightWeight Frank = new LightWeight();
 
         John.warmUp();
         John.pushUps();

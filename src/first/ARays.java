@@ -1,3 +1,5 @@
+package first;
+
 public class ARays {
     public static void main(String[] args) {
         String[] myCountry = {"My", "country", "is", "Tajikistan"};

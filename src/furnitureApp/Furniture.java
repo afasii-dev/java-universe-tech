@@ -40,4 +40,14 @@ public abstract class Furniture {
     public void setIsCleaned(boolean isCleaned) {
         this.isCleaned = isCleaned;
     }
+
+    @Override
+    public String toString() {
+        return "Furniture{" +
+                "material='" + material + '\'' +
+                ", price=" + price +
+                ", color=" + color +
+                ", isCleaned=" + isCleaned +
+                '}';
+    }
 }

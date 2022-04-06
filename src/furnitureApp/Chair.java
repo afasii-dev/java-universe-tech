@@ -12,6 +12,17 @@ public class Chair extends Furniture {
         }
     }
 
+    public Chair() {
+        System.out.println("Creating chair");
+    }
+
+    public Chair(String material, double price, Color color, boolean isCleaned){
+        this.setMaterial(material);
+        this.setPrice(price);
+        this.setColor(color);
+        this.setIsCleaned(isCleaned);
+    }
+
     @Override
     boolean build() {
         return false;

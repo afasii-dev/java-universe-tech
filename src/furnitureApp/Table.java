@@ -6,6 +6,10 @@ public class Table extends Furniture {
 
     private ArrayList<Color> colors;
 
+    public Table(){
+        System.out.println("Creating table");
+    }
+
     public ArrayList<Color> getColors() {
         return colors;
     }
@@ -22,9 +26,18 @@ public class Table extends Furniture {
         }
     }
 
+
     @Override
     boolean build() {
         return false;
     }
+
+    public void showColors(){
+        System.out.println("Colors Available:  ");
+        for (Color color : colors) {
+            System.out.println(color);
+        }
+    }
+
 
 }

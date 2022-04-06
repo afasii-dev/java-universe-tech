@@ -29,8 +29,4 @@ public class Chair extends Furniture {
         return false;
     }
 
-    @Override
-    public String toString() {
-        return "Chair{}";
-    }
-}
+ }

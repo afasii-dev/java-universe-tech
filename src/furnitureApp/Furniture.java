@@ -42,6 +42,14 @@ public abstract class Furniture {
     public boolean getIsCleaned() {
         return isCleaned;
     }
-
+    @Override
+    public String toString() {
+        return "Furniture{" +
+                "material='" + material + '\'' +
+                ", price=" + price +
+                ", color=" + color +
+                ", isCleaned=" + isCleaned +
+                '}';
+    }
 
 }

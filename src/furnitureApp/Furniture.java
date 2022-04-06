@@ -1,12 +1,10 @@
 package furnitureApp;
 
-public abstract class furniture {
+public abstract class Furniture {
     private String material;
     private double price;
-    private color color;
+    private Color color;
     private boolean isCleaned;
-
-
 
 
     abstract void clean();
@@ -29,11 +27,11 @@ public abstract class furniture {
         this.price = price;
     }
 
-    public furnitureApp.color getColor() {
+    public Color getColor() {
         return color;
     }
 
-    public void setColor(furnitureApp.color color) {
+    public void setColor(Color color) {
         this.color = color;
     }
 
@@ -44,4 +42,6 @@ public abstract class furniture {
     public boolean getIsCleaned() {
         return isCleaned;
     }
+
+
 }

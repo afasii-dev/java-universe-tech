@@ -1,11 +1,11 @@
 package furnitureApp;
 
-public class table extends furniture {
+public class Sofa extends Furniture {
 
         @Override
         void clean() {
             if (super.getIsCleaned() == false) {
-                System.out.println("Cleaning Table!");
+                System.out.println("Cleaning Sofa!");
                 super.setIsCleaned(true);
             }
         }

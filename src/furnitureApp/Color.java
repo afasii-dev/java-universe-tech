@@ -1,6 +1,6 @@
 package furnitureApp;
 
-public enum color {
+public enum Color {
     WHITE,
     RED,
     BLACK,

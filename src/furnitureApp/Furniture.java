@@ -1,11 +1,12 @@
-package enums;
+package furnitureApp;
 
 public abstract class Furniture {
     private String material;
     private double price;
     private Color color;
+    private boolean isCleaned;
 
-    abstract boolean clean();
+    abstract void clean();
     abstract boolean build();
 
     public String getMaterial() {
@@ -30,5 +31,13 @@ public abstract class Furniture {
 
     public void setColor(Color color) {
         this.color = color;
+    }
+
+    public boolean getIsCleaned() {
+        return isCleaned;
+    }
+
+    public void setIsCleaned(boolean isCleaned) {
+        this.isCleaned = isCleaned;
     }
 }

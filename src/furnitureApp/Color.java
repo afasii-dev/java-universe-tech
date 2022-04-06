@@ -1,4 +1,4 @@
-package enums;
+package furnitureApp;
 
 public enum Color {
     WHITE,
